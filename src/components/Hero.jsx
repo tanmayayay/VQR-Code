@@ -52,7 +52,7 @@ function Hero() {
                 >
                   Get VQR &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
-                <Link className="hero-content__text__btns__learn-more" to="/">
+                <Link onClick={bookBtn} className="hero-content__text__btns__learn-more" to="/about">
                   Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
                 </Link>
               </div>

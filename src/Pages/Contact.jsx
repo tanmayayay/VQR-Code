@@ -12,19 +12,19 @@ function Contact() {
               <h2>Need additional information?</h2>
               <p>
                 A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
+                research, development as well as a learning specialist. Over 2
                 years of experience.
               </p>
               <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
+                <i className="fa-solid fa-phone"></i>&nbsp; +919437222091
               </a>
               <a href="/">
                 <i className="fa-solid fa-envelope"></i>&nbsp;
-                carrental@carmail.com
+                dmdjdigvijay1@gmail.com
               </a>
               <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Belgrade,
-                Serbia
+                <i className="fa-solid fa-location-dot"></i>&nbsp; New Delhi,
+                India
               </a>
             </div>
             <div className="contact-div__form">
@@ -56,10 +56,10 @@ function Contact() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Get your stickers online or by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>+919437222091</h3>
               </span>
             </div>
           </div>

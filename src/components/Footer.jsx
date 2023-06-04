@@ -9,22 +9,22 @@ function Footer() {
                 <span>VQR</span>Code
               </li>
               <li>
-                We offer a big range of sticker designs for all of your choices. We
+                We offer a variety of sticker designs for all of your choices. We
                 have the perfect upgrade that your car to needs.
               </li>
               <li>
-                <a href="tel:123456789">
-                  <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
+                <a href="tel:+919437222091">
+                  <i className="fa-solid fa-phone"></i> &nbsp; +919437222091
                 </a>
               </li>
 
               <li>
                 <a
                   href="mailto: 
-                carrental@gmail.com"
+                  dmdjdigvijay1@gmail.com"
                 >
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; dmdigvijay1@gmail.com
+                  &nbsp; dmdjdigvijay1@gmail.com
                 </a>
               </li>
 
@@ -33,9 +33,9 @@ function Footer() {
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://jephunneh.com/"
+                  href="https://singhtanmay.netlify.app/"
                 >
-                  Design by tanmayayay
+                  Webiste Design by tanmayayay
                 </a>
               </li>
             </ul>
@@ -62,7 +62,7 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Working Hours</li>
               <li>Mon - Fri: 9:00AM - 9:00PM</li>
-              <li>Sat: 9:00AM - 19:00PM</li>
+              <li>Sat: 9:00AM - 5:00PM</li>
               <li>Sun: Closed</li>
             </ul>
 

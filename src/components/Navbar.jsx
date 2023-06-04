@@ -100,7 +100,7 @@ function Navbar() {
             <Link className="navbar__buttons__sign-in" to="/">
               Sign In
             </Link>
-            <Link className="navbar__buttons__register" to="/">
+            <Link className="navbar__buttons__register" to="/models">
               Order Now
             </Link>
           </div>

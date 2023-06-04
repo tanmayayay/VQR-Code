@@ -2,17 +2,17 @@ import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
 import CarImg1 from "../images/cars-big/audi-box.png";
 import CarImg2 from "../images/cars-big/golf6-box.png";
-import CarImg3 from "../images/cars-big/toyota-box.png";
-import CarImg4 from "../images/cars-big/bmw-box.png";
-import CarImg5 from "../images/cars-big/benz-box.png";
-import CarImg6 from "../images/cars-big/passat-box.png";
+// import CarImg3 from "../images/cars-big/toyota-box.png";
+// import CarImg4 from "../images/cars-big/bmw-box.png";
+// import CarImg5 from "../images/cars-big/benz-box.png";
+// import CarImg6 from "../images/cars-big/passat-box.png";
 import { Link } from "react-router-dom";
 
 function Models() {
   return (
     <>
       <section className="models-section">
-        <HeroPages name="Vehicle Models" />
+        <HeroPages name="Sticker Designs" />
         <div className="container">
           <div className="models-div">
             <div className="models-div__box">
@@ -21,7 +21,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Audi A1</p>
+                      <p>VQR Apple Design </p>
                       <span>
                         <i className="fa-solid fa-star"></i>
                         <i className="fa-solid fa-star"></i>
@@ -31,12 +31,12 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$45</h4>
-                      <p>per day</p>
+                      <h4>Rs.200</h4>
+                      <p>only</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
-                    <span>
+                    {/* <span>
                       <i className="fa-solid fa-car-side"></i> &nbsp; Audi
                     </span>
                     <span style={{ textAlign: "right" }}>
@@ -47,24 +47,24 @@ function Models() {
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
-                    </span>
+                    </span> */}
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Order Now
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="models-div__box">
+             <div className="models-div__box">
               <div className="models-div__box__img">
                 <img src={CarImg2} alt="car_img" />
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Golf 6</p>
+                      <p>VQR Android Design</p>
                       <span>
                         <i className="fa-solid fa-star"></i>
                         <i className="fa-solid fa-star"></i>
@@ -74,15 +74,15 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$37</h4>
-                      <p>per day</p>
+                      <h4>Rs.200</h4>
+                      <p>only</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
-                    <span>
+                    {/* <span>
                       <i className="fa-solid fa-car-side"></i> &nbsp; VW
-                    </span>
-                    <span style={{ textAlign: "right" }}>
+                    </span> */}
+                    {/* <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
@@ -90,18 +90,18 @@ function Models() {
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
-                    </span>
+                    </span> */}
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Order Now
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="models-div__box">
+            {/*<div className="models-div__box">
               <div className="models-div__box__img">
                 <img src={CarImg3} alt="car_img" />
                 <div className="models-div__box__descr">
@@ -271,17 +271,17 @@ function Models() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="book-banner">
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Get your stickers online or by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>+919437222091</h3>
               </span>
             </div>
           </div>

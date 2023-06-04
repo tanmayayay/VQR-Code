@@ -9,13 +9,11 @@ function Download() {
           <div className="download-text">
             <h2>Download our app to get most out of it</h2>
             <p>
-              Thrown shy denote ten ladies though ask saw. Or by to he going
-              think order event music. Incommode so intention defective at
-              convinced. Led income months itself and houses you.
+              Click on the links below to get our application both on IOS and Android.
             </p>
             <div className="download-text__btns">
-              <img alt="download_img" src={Img2} />
-              <img alt="download_img" src={Img1} />
+            <a href="https://play.google.com/store/apps/details?id=com.tekmama.vqrapp&pli=1"><img alt="download_img" src={Img2} /></a>
+            <a href="https://apps.apple.com/in/app/tekmama/id6448697871"><img alt="download_img" src={Img1} /></a>
             </div>
           </div>
         </div>
